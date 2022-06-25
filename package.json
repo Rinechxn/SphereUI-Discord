@@ -1,0 +1,30 @@
+{
+  "name": "spherepadui",
+  "version": "1.0.0",
+  "description": "ipad style theme with css",
+  "main": "index.js",
+  "repository": "https://github.com/Rinechxn/sphereUI-Discord",
+  "author": "Zerine",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "os": [
+    "win32",
+    "linux",
+    "darwin"
+  ],
+  "scripts": {
+    "build-s": "sass sources/sphereUI.scss:dist/sphereUI.discord.release.css --no-charset -no-source-map",
+    "build-auto": "sass sources/sphereUI-auto.scss:dist/sphereUI.discord.theme.css --no-charset -no-source-map",
+    "dev": "cross-os xdev",
+    "xdev": {
+      "win32": "sass sources/sphereUI.scss:%APPDATA%/BetterDiscord/themes/sphereUI.discord.theme.css --no-charset --no-source-map --watch",
+      "linux": "sass sources/sphereUI.scss:$HOME/.config/BetterDiscord/themes/sphereUI.discord.theme.css --no-charset --no-source-map --watch",
+      "darwin": "sass sources/sphereUI.scss:~/Library/Application Support/BetterDiscord/themes/sphereUI.discord.theme.css"
+      }
+  },
+  "devDependencies": {
+    "cross-os": "^1.5.0",
+    "sass": "^1.53.0"
+  }
+}
