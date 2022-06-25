@@ -19,7 +19,24 @@
 
  // HeaderChat
  .container-ZMc96U.themed-Hp1KC_ {
-    background: var(--sphheadercol);
+    background: none;
+}
+.theme-dark .container-2cd8Mz {
+    background-color: transparent;
+}
+
+// Watching
+
+.container-1oAagU {
+    background-color: transparent;
+}
+
+.nowPlayingColumn-1eCBCN {
+    background-color: transparent;
+}
+
+.scroller-hE2gWq {
+    border-left: none;
 }
 
 // Textaria
@@ -32,9 +49,44 @@
     scrollbar-width: none;
 }
 .channelTextArea-1FufC0 {
-    margin-bottom: 24px;
-    background-color: var(--sphheadercol);
+    margin-bottom: 22px;
+    margin-top: 22px;
+    background-color: #1b1b1b52;
+    // backdrop-filter: blur(8px);
 }
+
+.messagesWrapper-RpOMA3 {
+    position: unset;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 0;
+    min-width: 0;
+    z-index: 0;
+}
+
+.form-3gdLxP {
+    background-color: #1818188a;
+    backdrop-filter: blur(16px);
+}
+
+.scroller-kQBbkU {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 64px;
+}
+.form-3gdLxP:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: .0rem;
+    width: 1.25rem;
+}
+// Color 
 :root {
     --sphblrcol: #2525258e;
     --sphheadercol: #2e2e2e2f;
