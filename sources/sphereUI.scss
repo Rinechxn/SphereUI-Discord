@@ -23,8 +23,9 @@
 
 // UI
 @import "./modules/UI/settings";
+@import "./modules/UI/panel";
 
-// Modal 
+// Modal
 @import "./modules/trigger/images";
 @import "./modules/UI/modalbackdrop";
 
@@ -34,4 +35,5 @@
 
 // ModalPopup
 @import "./modules/modalpopup/popup";
-@import "./modules/modalpopup/sharescreen"
+@import "./modules/modalpopup/sharescreen";
+@import "./modules/modalpopup/ping"

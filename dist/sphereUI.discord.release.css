@@ -227,6 +227,10 @@ div[class*=headerTagNoNickname] {
   overflow: visible;
 }
 
+.circleIconButton-1VxDrg {
+  color: aliceblue;
+}
+
 /* Titlebar */
 ::root {
   --titlebar-color: #000000;
@@ -236,7 +240,7 @@ div[class*=headerTagNoNickname] {
   height: 24px;
 }
 
-#app-mount, .typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr {
+.typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr {
   background-color: var(--titlebar-color) !important;
   background: none;
 }
@@ -345,6 +349,7 @@ nav.wrapper-1_HaEi.guilds-2JjMmN [aria-label=แถบด้านข้าง�
 .tree-3agP2X {
   padding-top: 16px !important;
   padding-left: 8px;
+  padding-bottom: 16px;
 }
 
 .sidebarRegion-1VBisG {
@@ -391,6 +396,16 @@ nav.wrapper-1_HaEi.guilds-2JjMmN [aria-label=แถบด้านข้าง�
   --sph-mblack: #0e0e0ee0;
 }
 
+.panels-3wFtMD {
+  background-color: rgba(22, 22, 22, 0.8784313725);
+}
+
+.unread-2wipsx {
+  opacity: 1;
+  background-color: rgba(49, 49, 49, 0.4666666667);
+  backdrop-filter: blur(16px);
+}
+
 .image-36HiZc, .modal-3Crloo {
   border-radius: 12px;
   transition-duration: 250ms;
@@ -403,6 +418,18 @@ nav.wrapper-1_HaEi.guilds-2JjMmN [aria-label=แถบด้านข้าง�
 .image-36HiZc:active {
   transform: scale(0.95);
   transition-duration: 250ms;
+}
+
+div.backdrop-2ByYRN {
+  background: none !important;
+  opacity: 1 !important;
+  background-color: var(--sphmodalbg) !important;
+  backdrop-filter: var(--sphblrui) !important;
+  transition-duration: 250ms;
+}
+
+:root {
+  --sphmodalbg: #0e0e0ee0;
 }
 
 .container-3XgAHv {
@@ -442,9 +469,24 @@ nav.wrapper-1_HaEi.guilds-2JjMmN [aria-label=แถบด้านข้าง�
 }
 
 :root {
-  --sphblrcol: #0e0e0e3a;
-  --sphheadercol: #2e2e2e3a;
+  --sphblrcol: #2525258e;
+  --sphheadercol: #2e2e2e2f;
   --sphblrui: blur(16px);
+  --sphcallclr: #00fff2;
+  --text-positive: #00fff2;
+}
+
+.rtcConnectionStatusConnected-1c73OK {
+  color: var(--sphcallclr);
+}
+
+svg.ping-2IpLcU {
+  color: var(--sphcallclr);
+  fill: var(--sphcallclr) !important;
+}
+
+.rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc {
+  color: var(--sphcallclr);
 }
 
 .container-1NXEtd {
@@ -453,4 +495,79 @@ nav.wrapper-1_HaEi.guilds-2JjMmN [aria-label=แถบด้านข้าง�
 
 :root {
   --sphchatsidecol: #0e0e0e;
+}
+
+.container-2ebMPP {
+  background-color: rgba(30, 30, 30, 0.631372549);
+  backdrop-filter: blur(16px);
+  padding-bottom: 16px;
+}
+
+.channelHeader-DFRX8q {
+  background-color: rgba(14, 14, 14, 0.6039215686);
+  backdrop-filter: blur(16px);
+}
+
+.header-1w9Q93 {
+  backdrop-filter: blur(16px);
+}
+
+.messages-23can0 {
+  background-color: transparent;
+  backdrop-filter: blur(16px);
+}
+
+.embedFull-1HGV2S {
+  background-color: transparent;
+  backdrop-filter: blur(16px);
+}
+
+.headerContainer-1wJjOa {
+  background-color: rgba(83, 83, 83, 0.2745098039);
+  color: #000000 !important;
+  padding: 4px;
+  border-radius: 8px;
+  width: 97%;
+}
+
+.theme-dark .newPopoutActivityStyles .headerText-3g1XK9, .theme-dark .newProfileActivityStyles .headerText-3g1XK9, .theme-light .newPopoutActivityStyles .headerText-3g1XK9, .theme-light .newProfileActivityStyles .headerText-3g1XK9 {
+  color: #ffffff;
+}
+
+.activity-1gTu-L {
+  background-color: rgba(85, 85, 85, 0.1921568627);
+  padding: 4px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.avatarWrapper-eenWra {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  left: 34%;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.userPopout-2j1gM4 {
+  background-color: rgba(14, 14, 14, 0.6039215686);
+  border-radius: 8px;
+  backdrop-filter: blur(16px);
+}
+
+.headerText-1-WmDq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodyInnerWrapper-2bQs1k {
+  background-color: transparent;
+  color: var(--interactive-active);
+}
+
+.container-1ILvLB {
+  background: rgba(14, 14, 14, 0.4392156863);
+  backdrop-filter: blur(16px);
 }

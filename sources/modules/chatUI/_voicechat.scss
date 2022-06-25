@@ -36,7 +36,23 @@
     background-color: var(--sphheadercol);
 }
 :root {
-    --sphblrcol: #0e0e0e3a;
-    --sphheadercol: #2e2e2e3a;
+    --sphblrcol: #2525258e;
+    --sphheadercol: #2e2e2e2f;
     --sphblrui: blur(16px);
+    --sphcallclr: #00fff2;
+    --text-positive: #00fff2;
+}
+
+// Status
+.rtcConnectionStatusConnected-1c73OK {
+    color: var(--sphcallclr);
+}
+
+svg.ping-2IpLcU {
+    color: var(--sphcallclr);
+    fill: var(--sphcallclr) !important;
+}
+
+.rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc {
+    color: var(--sphcallclr);
 }

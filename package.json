@@ -14,7 +14,7 @@
     "darwin"
   ],
   "scripts": {
-    "build-s": "sass sources/sphereUI.scss:dist/sphereUI.discord.release.css --no-charset --no-source-map",
+    "build": "sass sources/sphereUI.scss:dist/sphereUI.discord.release.css --no-charset --no-source-map",
     "build-auto": "sass sources/sphereUI-auto.scss:dist/sphereUI.discord.theme.css --no-charset --no-source-map",
     "dev": "cross-os xdev",
     "xdev": {
