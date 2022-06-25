@@ -335,6 +335,16 @@ div[class*=headerTagNoNickname] {
 
 .content-1SgpWY {
   padding: 16px;
+  border-radius: 8px;
+}
+
+nav.wrapper-1_HaEi.guilds-2JjMmN [aria-label=แถบด้านข้างของเซิร์ฟเวอร์] {
+  padding-top: 16px !important;
+}
+
+.tree-3agP2X {
+  padding-top: 16px !important;
+  padding-left: 8px;
 }
 
 .sidebarRegion-1VBisG {
@@ -355,19 +365,92 @@ div[class*=headerTagNoNickname] {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: #000000;
+  background-color: var(--sph-black);
 }
 
 .sidebar-nqHbhN {
   width: 318px;
   padding: 60px 6px 60px 20px;
-  background-color: rgba(14, 14, 14, 0.8784313725);
+  background-color: var(--sph-mblack);
 }
 
 .contentTransitionWrap-1YD530 {
-  background-color: #000000 !important;
+  background-color: var(--sph-black) !important;
 }
 
 .contentRegionScroller-2_GT_N {
-  background-color: #000000;
+  background-color: var(--sph-black);
+}
+
+.closeButton-PCZcma {
+  border: none;
+}
+
+:root {
+  --sph-black: #000000;
+  --sph-mblack: #0e0e0ee0;
+}
+
+.image-36HiZc, .modal-3Crloo {
+  border-radius: 12px;
+  transition-duration: 250ms;
+}
+
+.image-36HiZc:hover {
+  transform: scale(0.98);
+  transition-duration: 250ms;
+}
+.image-36HiZc:active {
+  transform: scale(0.95);
+  transition-duration: 250ms;
+}
+
+.container-3XgAHv {
+  background: none;
+  background-color: var(--sphblrcol);
+  backdrop-filter: var(--sphblrui);
+}
+
+.floating-3M3WeH {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  z-index: 100;
+  border-left: 1px solid var(--sphblrcol);
+  -webkit-filter: drop-shadow(0 8px 40px rgba(0, 0, 0, 0.32));
+  filter: drop-shadow(0 8px 40px hsla(0deg, 0%, 0%, 0.32));
+}
+
+.container-ZMc96U.themed-Hp1KC_ {
+  background: var(--sphheadercol);
+}
+
+.scrollableContainer-15eg7h {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: transparent;
+  max-height: 50vh;
+  border-radius: 8px;
+  scrollbar-width: none;
+}
+
+.channelTextArea-1FufC0 {
+  margin-bottom: 24px;
+  background-color: var(--sphheadercol);
+}
+
+:root {
+  --sphblrcol: #0e0e0e3a;
+  --sphheadercol: #2e2e2e3a;
+  --sphblrui: blur(16px);
+}
+
+.container-1NXEtd {
+  background-color: var(--sphchatsidecol) !important;
+}
+
+:root {
+  --sphchatsidecol: #0e0e0e;
 }

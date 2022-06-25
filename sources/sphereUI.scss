@@ -19,9 +19,14 @@
 @import "./modules/mixins/titlebar";
 @import "./modules/mixins/wordmark";
 @import "./modules/mixins/container";
+@import "./modules/mixins/navserver";
 
 // UI
 @import "./modules/UI/settings";
 
 // Modal 
-@import "./modules/trigger/images"
+@import "./modules/trigger/images";
+
+// Chat
+@import "./modules/chatUI/voicechat";
+@import "./modules/chatUI/sidebar";

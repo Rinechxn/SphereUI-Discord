@@ -1,0 +1,42 @@
+.container-3XgAHv {
+    background: none;
+    background-color: var(--sphblrcol);
+    backdrop-filter: var(--sphblrui);
+}
+
+// Float
+.floating-3M3WeH {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    z-index: 100;
+    border-left: 1px solid var(--sphblrcol);
+    -webkit-filter: drop-shadow(0 8px 40px rgba(0,0,0,.32));
+    filter: drop-shadow(0 8px 40px hsla(0,0%,0%,.32));
+}
+
+ // HeaderChat
+ .container-ZMc96U.themed-Hp1KC_ {
+    background: var(--sphheadercol);
+}
+
+// Textaria
+.scrollableContainer-15eg7h {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: transparent;
+    max-height: 50vh;
+    border-radius: 8px;
+    scrollbar-width: none;
+}
+.channelTextArea-1FufC0 {
+    margin-bottom: 24px;
+    background-color: var(--sphheadercol);
+}
+:root {
+    --sphblrcol: #0e0e0e3a;
+    --sphheadercol: #2e2e2e3a;
+    --sphblrui: blur(16px);
+}
