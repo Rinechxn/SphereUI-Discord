@@ -26,7 +26,12 @@
 
 // Modal 
 @import "./modules/trigger/images";
+@import "./modules/UI/modalbackdrop";
 
 // Chat
 @import "./modules/chatUI/voicechat";
 @import "./modules/chatUI/sidebar";
+
+// ModalPopup
+@import "./modules/modalpopup/popup";
+@import "./modules/modalpopup/sharescreen"

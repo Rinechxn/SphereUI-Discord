@@ -1,0 +1,12 @@
+div.backdrop-2ByYRN{
+    background: none !important;
+    opacity: 1 !important;
+    background-color: var(--sphmodalbg) !important;
+    backdrop-filter: var(--sphblrui) !important;
+    transition-duration: 250ms;
+}
+
+:root {
+    --sphmodalbg: #0e0e0ee0;
+}
+
