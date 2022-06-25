@@ -1,0 +1,55 @@
+.wordmark-2u86JB {
+    &:after {
+      color: #f7f5f5;
+      content: "Electron Discord";
+      font-size: 11px;
+      font-weight: 700;
+
+    }
+  
+    &:before {
+      content: "" var(--version);
+      color: rgba(var(--alt-color), 0.7);
+      background-color: var(--glasscord-secondary-alt);
+      font-size: 14.1px;
+      font-weight: 700;
+      position: absolute;
+      display: var(--display-version) !important;
+      width: 4000px;
+      top: 4.5px;
+      left: calc(var(--Watermark-Alignment) + 310%);
+      display: var(--version-display);
+    }
+  
+    left: 8px;
+  }
+  
+  .theme-light .wordmark-2u86JB:after {
+    color: #303030;
+  }
+  
+  .theme-dark .wordmark-2u86JB:after {
+    color: #f7f5f5;
+  }
+  
+  .wordmark-2u86JB > svg {
+    width: 0;
+  }
+  
+  .winButton-3UMjdg {
+    position: relative;
+    top: -3.5px;
+    cursor: pointer;
+    width: 32px;
+    height: 30px;
+    pointer-events: auto;
+    -webkit-app-region: no-drag;
+  }
+
+  .wordmarkWindows-2dq6rw {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px 9px 3px;
+    color: var(--text-muted);
+}

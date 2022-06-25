@@ -1,0 +1,373 @@
+/**
+ * @name SphereUI Discord
+ * @version 1.0.0
+ * @description iPad UI Style with css
+ * @author Zerine
+ * 
+ * @website zerine.extsalt.net
+ */
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/InterInter-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-ExtraBold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped ExtLight";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  src: url("https://raw.githubusercontent.com/Rinechxn/sphereUI-Discord/sources/modules/fonts/NotoSansThaiLooped-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+body, h1, div, input, textarea, input, h2, h3, h4, h5 {
+  font-family: "inter", "Noto Sans Thai Looped", sans-serif !important;
+}
+
+code {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+* {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+  font-family: "inter", "Noto Sans Thai Looped", sans-serif !important;
+}
+
+h1 {
+  font-family: "inter", "Noto Sans Thai Looped", sans-serif !important;
+}
+
+div,
+input,
+textarea,
+input {
+  font-family: "inter", "Noto Sans Thai Looped", sans-serif !important;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "inter", "Noto Sans Thai Looped", sans-serif !important;
+}
+
+code {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+* {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* Scrollbars */
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece, .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+  border: 0;
+  margin-right: 0;
+  background-color: #2e3440;
+  width: 20px;
+}
+
+.auto-2K3UW5::-webkit-scrollbar-thumb {
+  border-right: 6.5px solid transparent;
+  border-left: 6.5px solid transparent;
+  border-radius: 40.8%;
+}
+.auto-2K3UW5::-webkit-scrollbar-track {
+  border-right: 6.5px solid transparent;
+  border-left: 6.5px solid transparent;
+}
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before {
+  display: var(--outdated_windowsXI-082, block) !important;
+  position: absolute;
+  left: 32% !important;
+  width: fit-content;
+  border-radius: 0 0 12px 12px !important;
+  top: 48px !important;
+}
+
+div[class*=root] > div[class*=body] > div[class*=listScroller] {
+  flex-wrap: wrap;
+}
+div[class*=headerText] > .lastMessageDate-ocEw13, div[class*=headerText] > .creationDate-CJwdKT, div[class*=headerText] > .joinedAtDate-IawR02 {
+  /*margin-top:18px !important;*/
+  margin-top: 0px !important;
+  position: absolute;
+  top: 35px;
+  /*20px*/
+}
+div[id*=popout] div[class*=headerTop] > div[class*=headerText] {
+  padding-bottom: 20px;
+}
+div[class*=topSection] .lastMessageDate-ocEw13 {
+  margin-top: -45px !important;
+  position: relative !important;
+}
+div[class*=topSection] .creationDate-CJwdKT, div[class*=topSection] .joinedAtDate-IawR02 {
+  margin-top: 0px !important;
+  position: relative !important;
+}
+div[class*=headerTagNoNickname] {
+  height: 24px;
+  overflow: visible;
+}
+
+/* Titlebar */
+::root {
+  --titlebar-color: #000000;
+}
+
+.titleBar-1it3bQ {
+  height: 24px;
+}
+
+#app-mount, .typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr {
+  background-color: var(--titlebar-color) !important;
+  background: none;
+}
+
+.titleBar-1it3bQ {
+  padding-right: 8px;
+}
+.titleBar-1it3bQ > :nth-child(2):hover {
+  background-color: #ff1e00;
+}
+.titleBar-1it3bQ > :nth-child(3):hover {
+  background-color: #ffbf00;
+}
+.titleBar-1it3bQ > :nth-child(4):hover {
+  background-color: #00ff00;
+}
+.titleBar-1it3bQ > :nth-child(2) {
+  /* display: none; */
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  border-radius: 9999px;
+  width: 7px;
+  height: 7px;
+  margin-top: 8px;
+  margin-left: 4px;
+}
+.titleBar-1it3bQ > :nth-child(3) {
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  border-radius: 9999px !important;
+  width: 7px;
+  height: 7px;
+  margin-top: 8px;
+  margin-left: 4px;
+  border: none !important;
+}
+.titleBar-1it3bQ > :nth-child(4) {
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  border-radius: 9999px;
+  width: 7px;
+  height: 7px;
+  margin-top: 8px;
+  margin-left: 4px;
+}
+
+.wordmark-2u86JB {
+  left: 8px;
+}
+.wordmark-2u86JB:after {
+  color: #f7f5f5;
+  content: "Electron Discord";
+  font-size: 11px;
+  font-weight: 700;
+}
+.wordmark-2u86JB:before {
+  content: "" var(--version);
+  color: rgba(var(--alt-color), 0.7);
+  background-color: var(--glasscord-secondary-alt);
+  font-size: 14.1px;
+  font-weight: 700;
+  position: absolute;
+  display: var(--display-version) !important;
+  width: 4000px;
+  top: 4.5px;
+  left: calc(var(--Watermark-Alignment) + 310%);
+  display: var(--version-display);
+}
+
+.theme-light .wordmark-2u86JB:after {
+  color: #303030;
+}
+
+.theme-dark .wordmark-2u86JB:after {
+  color: #f7f5f5;
+}
+
+.wordmark-2u86JB > svg {
+  width: 0;
+}
+
+.winButton-3UMjdg {
+  position: relative;
+  top: -3.5px;
+  cursor: pointer;
+  width: 32px;
+  height: 30px;
+  pointer-events: auto;
+  -webkit-app-region: no-drag;
+}
+
+.wordmarkWindows-2dq6rw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2px 9px 3px;
+  color: var(--text-muted);
+}
+
+.content-1SgpWY {
+  padding: 16px;
+}
+
+.sidebarRegion-1VBisG {
+  -ms-flex: 1 0 218px;
+  flex: 0 0 0px;
+  z-index: 1;
+  -ms-flex-pack: end;
+}
+
+.sidebarRegionScroller-FXiQOh {
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: end;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #000000;
+}
+
+.sidebar-nqHbhN {
+  width: 318px;
+  padding: 60px 6px 60px 20px;
+  background-color: rgba(14, 14, 14, 0.8784313725);
+}
+
+.contentTransitionWrap-1YD530 {
+  background-color: #000000 !important;
+}
+
+.contentRegionScroller-2_GT_N {
+  background-color: #000000;
+}

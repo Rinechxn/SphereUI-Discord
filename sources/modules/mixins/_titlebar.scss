@@ -1,0 +1,63 @@
+  /* Titlebar */
+
+  ::root {
+    --titlebar-color: #000000;
+  }
+
+
+  .titleBar-1it3bQ {
+    height: 24px;
+
+  }
+
+  #app-mount, .typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr {
+    background-color: var(--titlebar-color) !important;
+    background: none;
+  }
+
+  .titleBar-1it3bQ {
+    > {
+      :nth-child(2):hover {
+        background-color: #ff1e00;
+      }
+  
+      :nth-child(3):hover {
+        background-color: #ffbf00;
+      }
+  
+      :nth-child(4):hover {
+        background-color: #00ff00;
+      }
+  
+      :nth-child(2) {
+        /* display: none; */
+        background-color: #ffffff8a;
+        border-radius: 9999px;
+        width: 7px;
+        height: 7px;
+        margin-top: 8px;
+        margin-left: 4px;
+      }
+  
+      :nth-child(3) {
+        background-color: #ffffff8a;
+        border-radius: 9999px !important;
+        width: 7px;
+        height: 7px;
+        margin-top: 8px;
+        margin-left: 4px;
+        border: none !important;
+      }
+  
+      :nth-child(4) {
+        background-color: #ffffff8a;
+        border-radius: 9999px;
+        width: 7px;
+        height: 7px;
+        margin-top: 8px;
+        margin-left: 4px;
+      }
+    }
+  
+    padding-right: 8px;
+  }

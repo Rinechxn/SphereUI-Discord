@@ -1,0 +1,42 @@
+// SIdebar
+
+.sidebarRegion-1VBisG {
+    -ms-flex: 1 0 218px;
+    flex: 0 0 0px;
+    z-index: 1;
+    -ms-flex-pack: end;
+}
+.sidebarRegionScroller-FXiQOh {
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: end;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background-color: var(--sph-black);
+}
+
+.sidebar-nqHbhN {
+    width: 318px;
+    padding: 60px 6px 60px 20px;
+    background-color: var(--sph-mblack);
+}
+
+// Content
+.contentTransitionWrap-1YD530 {
+    background-color: var(--sph-black) !important;
+}
+
+.contentRegionScroller-2_GT_N {
+    background-color: var(--sph-black);
+}
+
+
+:root {
+    --sph-black: #000000;
+    --sph-mblack: #0e0e0ee0;
+}

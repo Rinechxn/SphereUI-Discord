@@ -1,0 +1,19 @@
+// Image Triggering
+
+.image-36HiZc, .modal-3Crloo {
+    border-radius: 12px;
+    transition-duration: 250ms;
+  }
+  
+  .image-36HiZc {
+    &:hover {
+      transform: scale(0.98);
+      transition-duration: 250ms;
+    }
+  
+    &:active {
+      transform: scale(0.95);
+      transition-duration: 250ms;
+    }
+  }
+  
